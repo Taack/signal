@@ -1,0 +1,26 @@
+= Objective
+
+Show events, without event Q, or a single event Q (not per users)
+
+== TODO
+
+=== Events on domain
+
+* Template of queries (with placeholder for users, date from, date to...)
+** per user
+** date from, since last time
+** CRUD Operations (without delete)
+
+=== Events on service
+
+* Record events with
+** a timestamp
+** a controller
+** an action
+** an ID
+** a version
+** parameter string
+
+If domain is historized, display corresponding version.
+
+
