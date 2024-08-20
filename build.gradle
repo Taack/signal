@@ -2,6 +2,10 @@ plugins {
     id 'taack-grails-plugin'
 }
 
+dependencies {
+    implementation 'org.questdb:questdb:8.1.0'
+}
+
 grails {
     // should use gradle -Dgrails.run.active=true bootRun
     exploded = true
